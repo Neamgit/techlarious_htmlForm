@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <style>
+        table, th, td{ border:1px solid blue;} 
+    </style>
+     -->
+</head>
+<body>
+    <form>
+    <table  border="0">
+        <tr style="font-weight: bold;">
+            <td>
+                <label for="title">
+                    Title:
+                    <span class="required" style="color: red;">*</span><br>
+                    <input type="text" id="title"   name="title" value="Astronomy for Poets" size="50">
+                </label>
+            </td>
+            <td>
+                <label for="title">
+                    Short Title:
+                    <span class="required" style="color: red;">*</span><br>
+                    <input type="text" name="title" value="Astr. for Poets" >
+                </label>
+            </td>
+            <td>
+                <label for="title">
+                    Subj.: <br>
+                     BLST 
+                </label>
+            </td>
+            <td>
+                <label for="title">
+                    Num.:<br>
+                    <input type="text" name="title" value="01" size="2">
+                </label>
+            </td>
+            <td>
+                <label for="title">
+                    Section:<br>
+                    <input type="text" name="title" value="01" size="3">
+                </label>
+            </td>
+            <td>
+                <label for="title">
+                    Year:<br>
+                   0910
+                </label>
+            </td>
+        </tr>
+        
+    </table>
+    </form>
+
+    <div>
+        
+            <table border="2">
+                <tr>
+                    <table >
+                        <tr>
+                            <td> 
+                            <input type="checkbox" id="limit" name="limit">
+                            Enrollment <br>
+                            limit
+                            </td>
+                            <td>
+                                <label style="font-weight: bold;">Num.:</label><br>
+                                <input type="text" id="num" name="num" size="2">
+                            </td>
+                            <td>
+                                <label style="font-weight: bold;">Rationale:</label><br>
+                                <input type="text" id="num" name="num" size="70">
+                            </td>
+                            <td rowspan="4">
+                                <label style="font-weight: bold;">Class <br>
+                                        Meetings/Week:<br>
+                                    <input type="number" size="1" >
+                                <br>
+                                       Class Hours/Week<br>
+                                <input type="number" size="1">
+                                <br>
+                                        Semester(s) Offered<br>
+                                <input type="number" size="1">
+                                <br><br>
+                                <input type="checkbox" id="semester" checked>Incl. semester in prereqs.
+                                <br><br>
+                                <input type="checkbox" id="offer">Offered only once
+                                <br><br>
+                                <input type="checkbox" id="print">incl. in printed catalog
+
+                                </label>
+                            </td>
+                            <td rowspan="4">
+                                <h4>Keywords</h4>
+                                <input type="checkbox" id="semester">Science for non-majors
+                                <br><br>
+                                <input type="checkbox" id="semester">Fine arts for non-majors
+                                <br><br>
+                                <input type="checkbox" id="semester">Lab science course
+                                <br><br>
+                                <input type="checkbox" id="semester">Artistic practice
+                                <br><br>
+                                <input type="checkbox" id="semester">Foreign language/culture<br>
+                                &nbsp &nbsp taught in English
+                                <br><br>
+                                <input type="checkbox" id="semester">Community based learning
+                                <br><br>
+                                <input type="checkbox" id="semester">Writing attentive
+                                <br><br>
+                                <input type="checkbox" id="semester">Writing intensive
+                                <br><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"> 
+                                <input type="checkbox" id="limit" name="limit">
+                                Consent <br>
+                                required
+                                </td>
+                                
+                                <td>
+                                    <label style="font-weight: bold;">Rationale:</label><br>
+                                    <input type="text" id="num" name="num" size="70">
+                                </td>
+                        </tr>
+                        <tr>
+                            <td> 
+                                <input type="checkbox" id="limit" name="limit">
+                                Limit Class <br>
+                                level
+                                </td>
+                                <td>
+                                    <label style="font-weight: bold;">Code.:</label><br>
+                                    <input type="text" id="num" name="num" size="2">
+                                </td>
+                                <td>
+                                    <label style="font-weight: bold;">Rationale:</label><br>
+                                    <input type="text" id="num" name="num" size="70"><br><br>
+                                    <label style="font-weight: bold;">How to handle over-enrollment:</label><br>
+                                    <input type="text" id="num" name="num" size="70">
+                                </td>
+                        </tr>
+                        <tr>
+                                <td colspan="2"> 
+                                <input type="checkbox" id="limit" name="limit">
+                                Enrollment <br>
+                                limit
+                                </td>
+                                <td>
+                                    <label style="font-weight: bold;">Rationale:</label><br>
+                                    <input type="text" id="num" name="num" size="70"><br><br>
+
+                                    <label style="font-weight: bold;">required Prereqs.(major,course):</label><br>
+                                    <input type="text" id="num" name="num" size="70"><br><br>
+
+                                    <label style="font-weight: bold;">Recommended Prereqs.:</label><br>
+                                    <input type="text" id="num" name="num" size="70"><br>
+                                </td>
+                        </tr>
+                        <tr>
+                            <table>
+                                <tr>
+                                    <td>
+                                        <label style="font-weight: bold;">Approvals:</label>
+                                        <br><br>
+                                        <input type="checkbox" id="limit" name="limit">CEP
+                                        <br><br>
+                                        <input type="checkbox" id="limit" name="limit">Committe of Six
+                                        <br><br>
+                                        <input type="checkbox" id="limit" name="limit">Faculty
+                                        <br><br>
+                                    </td>
+                                    <td>
+                                        <label style="font-weight: bold;">Date:</label>
+                                        <br><br>
+                                        <input type="text" id="limit" name="limit">
+                                        <br><br>
+                                        <input type="text" id="limit" name="limit">
+                                        <br><br>
+                                        <input type="text" id="limit" name="limit">
+                                        <br><br>
+                                    </td>
+                                    <td>
+                                        <label style="font-weight: bold;">Comment:</label>
+                                        <br><br>
+                                        <input type="text" id="limit" name="limit">
+                                        <br><br>
+                                        <input type="text" id="limit" name="limit">
+                                        <br><br>
+                                        <input type="text" id="limit" name="limit">
+                                        <br><br>
+                                    </td>
+                                </tr>
+                            </table>
+                        </tr>
+                    </table>
+
+                </tr>
+            </table>
+        
+    </div>
+</body>
+</html>
