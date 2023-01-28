@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="styleSheet" href="./ComplexForms.css">
+</head>
+<body>
+
+<div >
+
+    <table  border="0" id="head">
+        <tr >
+            <td >
+                <label for="title">
+                    Title:
+                    <span class="required" style="color: red;">*</span><br>
+                    <input type="text" id="text" name="title" placeholder="Astronomy for Poets" size="60">
+                </label>
+            </td>
+            <td>
+                <label for="title">
+                    Short Title:
+                    <span class="required" style="color: red;">*</span><br>
+                    <input type="text" name="title" placeholder="Astr. for Poets" id="text">
+                </label>
+            </td>
+            <td>
+                <label for="title">
+                    <b > Subj.: <br>
+                        BLST </b>
+                   
+                </label>
+            </td>
+            <td>
+                <label for="title">
+                    Num.:<br>
+                    <input type="text" name="title" placeholder="01" size="2" id="text">
+                </label>
+            </td>
+            <td>
+                <label for="title">
+                    Section:<br>
+                    <input type="text" name="title" placeholder="01" size="3" id="text">
+                </label>
+            </td>
+            <td>
+                <label for="title">
+                    Year:<br>
+                   0910
+                </label>
+            </td>
+        </tr>
+        
+    </table>
+
+</div>
+
+
+    <div>
+        
+           
+                    <table id="enrollment" >
+                        <tr>
+                            <td colspan="2">
+                            <div class="checkbox">
+                            <input type="checkbox" id="limit" name="limit" >
+                            Enrollment <br>
+                            limit
+                            </div>
+                            
+                            <div class="inputs">
+                                <label style="font-weight: bold;" >Num.:</label><br>
+                                <input type="text" id="text" name="num"  id="text" style="width:1cm;">
+                            </div>
+                            <div class="input2" >
+                                <label style="font-weight: bold;">Rationale:</label>
+                                <input type="text" name="num" id="text" style="width:40px;">
+                            </div>
+                            </td>
+                            <td rowspan="4" style="width: 6cm;">
+                                <label style="font-weight: bold;">Class <br>
+                                        Meetings/Week:<br>
+                                    <input type="number" size="1" id="number" style="width: 40px;" >
+                                <br>
+                                       Class Hours/Week<br>
+                                <input type="number" size="1" style="width: 40px;">
+                                <br>
+                                        Semester(s) Offered<br>
+                                <select size="1" >
+                                    <option selected>-none</option>
+                                </select>
+                                <br><br>
+                                <div class="checkbox1">
+                                    <input type="checkbox" id="semester" checked>Incl. semester in prereqs.
+                                    <br><br>
+                                    <input type="checkbox" id="offer">Offered only once
+                                    <br><br>
+                                    <input type="checkbox" id="print">incl. in printed catalog<br><br><br><br><br><br><br><br><br><br><br><br>
+                                </div>
+                                </label>
+                            </td>
+                            <td rowspan="4" style="width: 6cm;">
+                                <h4>Keywords</h4>
+                                <div class="checkbox2">
+                                    <input type="checkbox" id="semester">Science for non-majors
+                                    <br><br>
+                                    <input type="checkbox" id="semester">Fine arts for non-majors
+                                    <br><br>
+                                    <input type="checkbox" id="semester">Lab science course
+                                    <br><br>
+                                    <input type="checkbox" id="semester">Artistic practice
+                                    <br><br>
+                                    <input type="checkbox" id="semester">Foreign language/culture<br>
+                                    &nbsp &nbsp taught in English
+                                    <br><br>
+                                    <input type="checkbox" id="semester">Community based learning
+                                    <br><br>
+                                    <input type="checkbox" id="semester">Writing attentive
+                                    <br><br>
+                                    <input type="checkbox" id="semester">Writing intensive
+                                    <br><br>
+                                    <br><br><br><br><br><br>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"> 
+                                <div class="checkbox">
+                                <input type="checkbox" id="limit" name="limit">
+                                Consent <br>
+                                required
+                                </div>
+                                <div class="input2">
+                                    <label style="font-weight: bold;">Rationale:</label>
+                                    <input type="text" id="text" name="num" ><br>
+                            </td>
+                                </div>
+                        </tr>
+                        <tr>
+                            <td colspan="2"> 
+                                <div class="checkbox">
+                                <input type="checkbox" id="limit" name="limit">
+                                Limit Class <br>
+                                level
+                                </div>
+                                <div class="inputs">
+                                    <label style="font-weight: bold;">Code.:</label>
+                                    <input type="text" id="text" name="num" size="2" style="width:1cm;">
+                                </div>
+                                <div class="input2">
+                                    <label style="font-weight: bold;">Rationale:</label>
+                                    <input type="text" id="text" name="num" size="70"><br>
+                                    <label style="font-weight: bold;">How to handle over-enrollment:</label>
+                                    <input type="text" id="text" name="num" size="70" ><br>
+                                </div>
+                                </td>
+                        </tr>
+                        <tr>
+                                <td colspan="2" > 
+                                <div class="checkbox">
+                                    <input type="checkbox" id="limit" name="limit">
+                                    Prerequistite<br>
+                                </div>
+                                <div class="input2">
+                                    <label style="font-weight: bold;">Rationale:</label>
+                                    <input type="text" id="text" name="num" size="70"><br>
+
+                                    <label style="font-weight: bold;">required Prereqs.(major,course):</label>
+                                    <input type="text" id="text" name="num" size="70"><br>
+
+                                    <label style="font-weight: bold;">Recommended Prereqs.:</label>
+                                    <input type="text" id="text" name="num" size="70"><br>
+                                </div>
+                                </td>
+                        </tr>
+                        <tr>
+                            <table>
+                                <tr>
+                                    <td>
+                                        <label style="font-weight: bold;">Approvals:</label>
+                                        <br><br>
+                                        <input type="checkbox" id="limit" name="limit">CEP
+                                        <br><br>
+                                        <input type="checkbox" id="limit" name="limit">Committe of Six
+                                        <br><br>
+                                        <input type="checkbox" id="limit" name="limit">Faculty
+                                        <br><br>
+                                    </td>
+                                    <td>
+                                        <label style="font-weight: bold;">Date:</label>
+                                        <br><br>
+                                        <input type="text" id="text" name="limit">
+                                        <br><br>
+                                        <input type="text" id="text" name="limit">
+                                        <br><br>
+                                        <input type="text" id="text" name="limit">
+                                        <br><br>
+                                    </td>
+                                    <td>
+                                        <label style="font-weight: bold;">Comment:</label>
+                                        <br><br>
+                                        <input type="text" id="text" name="limit">
+                                        <br><br>
+                                        <input type="text" id="text" name="limit">
+                                        <br><br>
+                                        <input type="text" id="text" name="limit">
+                                        <br><br>
+                                    </td>
+                                </tr>
+                            </table>
+                        </tr>
+                    </table>
+
+       
+        
+    </div>
+</body>
+</html>

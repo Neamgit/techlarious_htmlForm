@@ -1,0 +1,63 @@
+#head {
+   
+    font-style: initial;
+    font-weight: bolder;
+
+}
+#text{
+    width: 80%;
+    /* padding: 12px 20px; */
+    /* margin: 8px 0; */
+    /* display: inline-block; */
+    border: 1px solid #ccc;
+    border-radius:initial;
+    box-sizing: border-box;
+    border-top: 2px solid darkgray;
+    border-bottom: 1px solid #ccc;
+    border-left:1px solid #ccc;
+
+
+}
+/* #enrollment tr{
+    border-bottom: darkgrey;
+    border-color:  #dfe3e4d7;
+    
+} */
+#enrollment{
+    border-bottom: rgba(128, 128, 128, 0.541);
+    border-top:  #dfe3e4e8;
+    border-left: #dfe3e4e8 ;
+    border-right:  #dfe3e4e8;
+    border-style: hidden;
+}
+#enrollment tr:nth-child(even){
+    background-color: #dfe3e4e8;
+}
+.inputs{
+    /* margin-left: 20px; */
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin-left: 108px;
+    margin-top: -45px;
+    
+}
+
+.input2{
+    margin-left: 190px;
+    margin-top: -18px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.checkbox{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+/* .checkbox1{
+    display: flex;
+    align-items: flex-start;
+} */
+#enrollment tr:nth-child(odd) {background-color: #cacdce5e;}
